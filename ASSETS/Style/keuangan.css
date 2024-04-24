@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    background-color: rgb(123, 178, 119);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    min-height: 100vh;
+    padding: 100px 50px 70px 50px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+.content{
+    color: black;
+    border: solid rgba(123, 178, 119, 0.1) 5px;
+    border-radius: 20px;
+    width: 100%;
+    margin: 10px 20px 10px 20px;
+    background-color: rgb(255, 255, 255, 0.6);
+}
+#judul{
+    font-weight: bold;
+    color: #3a833a;
+}
+#list {
+    font-size: medium;
+    font-weight: normal;
+}
+
+#list:hover {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.100);
+}
+
+.dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.clear{
+    clear: left;
+}

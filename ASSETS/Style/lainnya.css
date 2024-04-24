@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    background-color: rgb(123, 178, 119);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+.content{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: solid rgba(123, 178, 119, 0.1) 5px;
+    border-radius: 25px;
+    margin: 110px 50px 70px 50px;
+    padding: 25px;
+}
+
+#judul {
+    font-weight: bold;
+    color: #3a833a;
+}
+
+#list {
+    font-size: medium;
+    font-weight: normal;
+}
+
+#list:hover {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.100);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.clear {
+    clear: left;
+}
